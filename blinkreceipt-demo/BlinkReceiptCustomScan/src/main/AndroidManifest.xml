@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.blinkreceipt.ocr">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".BlinkApplication"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.MainActivity2"></activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.CameraActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+        <meta-data
+            android:name="com.microblink.ProductIntelligence"
+            android:value="[PRODUCT INTEL KEY]" />
+        <meta-data
+            android:name="com.microblink.LicenseKey"
+            android:value="sRwAAAAUY29tLmJsaW5rcmVjZWlwdC5vY3L7sc450aElcQC0phbEbJwiEc67Ja4Rah1sJkg8DJU7pfRTDAL26Po6BJXGyUpCDy0CJ70pLow7+gkWXxf+uP68fcLM/WUpDHAr/hh/81uWYsfepAI2HlXYBKu3B9xuFH/NKewRWd9Zwo9vF1Ysk5gF6wgkdSgK8ijRjZn9MkjCDt/93hDZCg==" />
+    </application>
+
+</manifest>

@@ -1,0 +1,31 @@
+package com.blinkreceipt.ocr;
+
+import java.util.Collection;
+
+import androidx.annotation.NonNull;
+
+import com.microblink.core.Timberland;
+
+public class Utility {
+
+    private Utility() {
+        super();
+    }
+
+    public static <T> boolean isNullOrEmpty(Collection<T> c) {
+        return (c == null) || (c.size() == 0);
+    }
+
+    public static void cancel( @NonNull Cancelable ... cancelable ) {
+        try {
+            if ( cancelable.length > 0 ) {
+                for ( Cancelable item : cancelable ) {
+                    item.cancel();
+                }
+            }
+        } catch ( Throwable e ) {
+            Timberland.e( e );
+        }
+    }
+
+}

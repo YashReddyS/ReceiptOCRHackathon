@@ -1,0 +1,34 @@
+$dokka.format:javadoc-v1
+$dokka.linkExtension:html
+$dokka.location:com.microblink.hardware.camera.camera1.strategy/CameraStrategy.PreviewSize///PointingToDeclaration/com/microblink/hardware/camera/camera1/strategy/CameraStrategy.PreviewSize.html
+$dokka.location:com.microblink.hardware.camera.camera1/Camera1SurfaceWrapper.PreviewHandler///PointingToDeclaration/com/microblink/hardware/camera/camera1/Camera1SurfaceWrapper.PreviewHandler.html
+$dokka.location:com.microblink.hardware.camera.camera2.frame/BaseCamera2Frame.ImageCloser///PointingToDeclaration/com/microblink/hardware/camera/camera2/frame/BaseCamera2Frame.ImageCloser.html
+$dokka.location:com.microblink.hardware.camera.memory/BufferCameraFrame.ExtendedCodecCapabilities///PointingToDeclaration/com/microblink/hardware/camera/memory/BufferCameraFrame.ExtendedCodecCapabilities.html
+$dokka.location:com.microblink.hardware.camera/ICameraManager.CameraStartupCallback///PointingToDeclaration/com/microblink/hardware/camera/ICameraManager.CameraStartupCallback.html
+$dokka.location:com.microblink.util/Log.LogLevel///PointingToDeclaration/com/microblink/util/Log.LogLevel.html
+$dokka.location:com.microblink.util/Log.LogWriter///PointingToDeclaration/com/microblink/util/Log.LogWriter.html
+$dokka.location:com.microblink.view.surface/ICameraView.CameraViewEventListener///PointingToDeclaration/com/microblink/view/surface/ICameraView.CameraViewEventListener.html
+$dokka.location:com.microblink.view/BaseCameraView.CameraViewState///PointingToDeclaration/com/microblink/view/BaseCameraView.CameraViewState.html
+com.microblink.debug
+com.microblink.hardware
+com.microblink.hardware.accelerometer
+com.microblink.hardware.camera
+com.microblink.hardware.camera.camera1
+com.microblink.hardware.camera.camera1.focus
+com.microblink.hardware.camera.camera1.frame
+com.microblink.hardware.camera.camera1.strategy
+com.microblink.hardware.camera.camera1.strategy.factory
+com.microblink.hardware.camera.camera2
+com.microblink.hardware.camera.camera2.frame
+com.microblink.hardware.camera.camera2.samsung
+com.microblink.hardware.camera.camera2.samsung.internal
+com.microblink.hardware.camera.factory
+com.microblink.hardware.camera.frame
+com.microblink.hardware.camera.memory
+com.microblink.hardware.orientation
+com.microblink.util
+com.microblink.util.pool
+com.microblink.view
+com.microblink.view.exception
+com.microblink.view.surface
+
